@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:store_api_flutter_course/consts/global_colors.dart';
 import 'package:store_api_flutter_course/widgets/app_icon.dart';
+import 'package:store_api_flutter_course/widgets/sale_wdget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -62,7 +63,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         IconlyLight.search,
                         color: lightIconsColor,
                       )),
-                )
+                ),
+                const SaleWidget()
               ],
             ),
           )),
